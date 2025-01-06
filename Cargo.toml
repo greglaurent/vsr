@@ -1,0 +1,9 @@
+[package]
+name = "vsr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+scru128 = "3.1.0"
+tokio = { version = "1.42.0", features = ["full"] }
+axum = "0.8.1"
